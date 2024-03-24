@@ -1,4 +1,5 @@
-![image](https://github.com/trulyaman25/signUp-Page/assets/158470743/cba5537d-6964-4e24-b1c9-537ec55d8e59)## Description
+![image](https://github.com/trulyaman25/signUp-Page/assets/158470743/cba5537d-6964-4e24-b1c9-537ec55d8e59)
+## Description
 The "trulyaman25 - join us!" webpage presents a modern and visually appealing signup interface. It combines a clean layout with stylish elements to create an engaging user experience. jump to the webpage: https://trulyaman25.github.io/signUp-Page/
 
 ## Page Structure
