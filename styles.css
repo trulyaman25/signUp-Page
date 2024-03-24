@@ -1,0 +1,115 @@
+@font-face {
+    font-family: poppins;
+    src: url('fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: poppinsMedium;
+    src: url('fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: noirPro;
+    src: url('fonts/NoirPro-Bold.otf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    --prussian-blue: rgb(0, 79, 136);
+    --picton-blue: rgb(207, 235, 253);
+    --indigo-dye: #034B7Fff;
+    --moonstone: rgb(52, 203, 230);
+    --cerulean: #2583AAff;
+}
+
+body {
+    font-family: poppins;
+}
+
+h1 {
+    font-family: noirPro;
+    font-size: 70px;
+    color: var(--prussian-blue);
+    text-align: center;
+    margin-top: 2.5px;
+}
+
+#background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background/bluebg.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#signUpCard {
+    height: 700px;
+    width: 500px;
+    display: flex;
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+    flex-flow: column;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 20px #10101090;
+}
+
+#signUpForm {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -2.5px;
+}
+
+#signUpForm p {
+    margin: 10px 0px 5px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#signUpForm input {
+    background-color: var(--picton-blue);
+    box-sizing: border-box;
+    padding: 0px 25px 0px 25px;
+    border: none;
+    border-color: black;
+    border-radius: 15px;
+    height: 55px;
+    width: 400px;
+}
+
+label{
+    color: #353a3a;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 0px 5px 10px;
+}
+
+#submit {
+    background-color: var(--moonstone);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 300px;
+    font-family: poppinsMedium;
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    margin: 40px 0px 0px 0px;
+}
+
+#submit:hover {
+    background-color: var(--cerulean);
+    cursor: pointer;
+}
+
+#login {
+    margin-top: 10px;
+    text-align: center;
+}
